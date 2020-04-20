@@ -2,8 +2,13 @@
 
 body {
     
-    background-color:;
-    color : rgb( 0,0 ,0);
+    background-color:#dddddd;
+    color : rgba( 0,0,0,1);
+}
+div#interface{
+  width: 700px;
+  background-color: #ffffff;
+  margin: 10px 10px 10px 10px;
 }
 p{
     text-align: justify;
@@ -51,8 +56,21 @@ figure.foto-legenda figcaption {
         background-color: #dddddd;
         padding: 10px;
         margin: 2px;
+        transition: background-color 1s;
+    }
+    nav#menu li:hover{
+        background-color: #606060;
     }
     nav#menu h1{
         display: none;
     }
+    nav#menu a {
+        color: rgba(0, 0, 0);
+        text-decoration: none;
+    }
+    nav#menu a:hover{
+        color: white;
+        text-decoration: underline;
+    }
+  
 
